@@ -1,0 +1,21 @@
+{
+  "name": "homework8",
+  "version": "1.0.0",
+  "description": "my first project with npm + node",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.js",
+    "dev": "parcel src/index.js",
+    "math": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  }
+}
